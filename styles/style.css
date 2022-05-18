@@ -1,8 +1,3 @@
-* {
-  margin: 0px;
-  padding: 0px;
-}
-
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -51,6 +46,8 @@
 }
 
 .header__subtitle {
+  margin: 0px;
+  padding: 0px;
   position: absolute;
   left: 64px;
   bottom: 30px;
@@ -110,6 +107,8 @@
 }
 
 .two-columns__brief {
+  margin:  0px;
+  padding: 0px;
   color: #2f80ed;
   line-height: 1.2;
   font-size: 18px;
@@ -118,6 +117,8 @@
 }
 
 .two-columns__paragraph {
+  margin: 0px;
+  padding: 0px;
   line-height: 34px;
   font-size: 24px;
   font-weight: 400;
@@ -139,6 +140,8 @@
 }
 
 .section-title {
+  margin: 0px;
+  padding: 0px;
   width: 60%;
   text-align: center;
   line-height: 1.15;
@@ -147,6 +150,7 @@
 }
 
 .section-subtitle {
+  margin: 0px;
   width: 60%;
   text-align: center;
   padding-top: 20px;
@@ -170,6 +174,8 @@
 }
 
 .table__heading {
+  margin: 0px;
+  padding: 0px;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 700;
@@ -177,6 +183,7 @@
 }
 
 .table__text {
+  margin: 0px;
   padding-top: 20px;
   line-height: 1.2;
   font-size: 18px;
@@ -195,6 +202,7 @@
 .feynman__title {
   position: absolute;
   max-width: 648px;
+  margin: 0px;
   padding-top: 100px;
   line-height: 1.15;
   font-size: 120px;
@@ -207,6 +215,7 @@
 .feynman__subtitle {
   position: relative;
   align-self: center;
+  margin: 0px;
   padding-top: 70px;
   line-height: 51px;
   font-size: 36px;
@@ -283,7 +292,8 @@
   width: 200px;
   color: white;
   margin-right: 0;
-  margin-top: 20px; /* Так как в table__cell отступ сверху равен 60px по брифу для секции digits, я решила просто добавить здесь необходимые 20px.*/
+  margin-top: 20px;
+  /* Так как в table__cell отступ сверху равен 60px по брифу для секции digits, я решила просто добавить здесь необходимые 20px.*/
 }
 
 .footer {
@@ -316,6 +326,7 @@
 }
 
 .footer__author {
+  margin: 0px;
   line-height: 25px;
   font-size: 18px;
   font-weight: 400;
@@ -326,6 +337,7 @@
 }
 
 .footer__column-heading {
+  margin: 0px;
   padding-bottom: 20px;
   line-height: 30px;
   font-size: 18px;
@@ -335,6 +347,8 @@
 }
 
 .footer__column-links {
+  margin: 0px;
+  padding: 0px;
   padding-bottom: 16px;
   text-align: left;
   line-height: 30px;
