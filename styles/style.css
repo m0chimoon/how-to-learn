@@ -1,7 +1,7 @@
 * {
-  margin: 0;
-  padding: 0;
-  }
+  margin: 0px;
+  padding: 0px;
+}
 
 .page {
   min-width: 1100px;
@@ -31,7 +31,7 @@
   width: 228px;
 }
 
-.logo_place-header {
+.logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
@@ -41,7 +41,7 @@
 .header__title {
   display: flex;
   align-items: center;
-  width: 730px;
+  max-width: 730px;
   margin-left: 64px;
   z-index: 3;
   line-height: 96px;
@@ -63,6 +63,7 @@
 
 .header__link {
   color: #2f80ed;
+  text-decoration: none;
 }
 
 .header__main-illustration {
@@ -96,6 +97,7 @@
 .two-columns {
   display: flex;
   width: 80%;
+  justify-content: space-between;
 }
 
 .two-columns__main-text {
@@ -112,6 +114,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: 400;
+  width: 175px;
 }
 
 .two-columns__paragraph {
@@ -135,7 +138,7 @@
   align-items: center;
 }
 
-.section__title {
+.section-title {
   width: 60%;
   text-align: center;
   line-height: 1.15;
@@ -143,7 +146,7 @@
   font-weight: 700;
 }
 
-.section__subtitle {
+.section-subtitle {
   width: 60%;
   text-align: center;
   padding-top: 20px;
@@ -157,22 +160,20 @@
   flex-wrap: wrap;
   justify-content: space-between;
   width: 1100px;
+  color: #000000;
 }
 
 .table__cell {
   width: 250px;
   padding-top: 60px;
-}
-
-.table__cell_q {
-  width: 200px;
-  padding-top: 80px;
+  color: #000000;
 }
 
 .table__heading {
   line-height: 1.15;
   font-size: 24px;
   font-weight: 700;
+  color: #000000;
 }
 
 .table__text {
@@ -180,12 +181,13 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: 400;
+  color: #000000;
 }
 
 .feynman {
   display: flex;
   position: relative;
-  height: 890px;
+  min-height: 890px;
   background-color: #f2f2f2;
   justify-content: center;
 }
@@ -252,8 +254,24 @@
   position: absolute;
   top: 0px;
   right: -210px;
-  overflow: hidden;
+  background-image: url(../images/kaufman-triangle.svg);
   z-index: -1;
+}
+
+.section-title__theme_dark {
+  color: #ffffff;
+}
+
+.section-subtitle__theme-dark {
+  color: #ffffff;
+}
+
+.table_theme_dark {
+  color: #ffffff;
+}
+
+.table__heading_theme_dark {
+  color: #ffffff;
 }
 
 .table__text_theme_dark {
@@ -265,7 +283,7 @@
   width: 200px;
   color: white;
   margin-right: 0;
-  margin-top: 80px;
+  margin-top: 20px; /* Так как в table__cell отступ сверху равен 60px по брифу для секции digits, я решила просто добавить здесь необходимые 20px.*/
 }
 
 .footer {
@@ -278,7 +296,6 @@
 }
 
 .footer__columns {
-  flex-basis: 711px;
   width: 90%;
   display: flex;
   justify-content: space-between;
@@ -291,7 +308,7 @@
   padding-bottom: 125px;
 }
 
-.footer__column_content-copyright {
+.footer__column_content_copyright {
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
@@ -323,9 +340,15 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: 400;
+  list-style-type: none;
 }
 
-.footer__column_content-social {
+.footer__column-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer__column_content_social {
   display: flex;
   flex-direction: column;
 }
@@ -338,11 +361,7 @@
 
 }
 
-.footer__column_content-info {
+.footer__column_content_info {
   display: flex;
   flex-direction: column;
-}
-
-ul {
-  list-style-type: none;
 }
