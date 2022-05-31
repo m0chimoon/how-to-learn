@@ -21,11 +21,6 @@
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__item/cards__item.css);
 @import url(../blocks/cards/__image/cards__image.css);
-@import url(../blocks/cards/__image/_pic/cards__image_pic_attention.css);
-@import url(../blocks/cards/__image/_pic/cards__image_pic_competence.css);
-@import url(../blocks/cards/__image/_pic/cards__image_pic_interliving.css);
-@import url(../blocks/cards/__image/_pic/cards__image_pic_question.css);
-@import url(../blocks/cards/__image/_pic/cards__image_pic_recall.css);
 @import url(../blocks/cards/__title/cards__title.css);
 @import url(../blocks/cards/__description/cards__description.css);
 @import url(../blocks/video/video.css);
