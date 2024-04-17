@@ -1,9 +1,7 @@
-# Научиться учиться
+# how-to-learn 
 
-Научиться учиться - это проект про различные, эффективные методы усвоения учебного материала.
+How to learn - is a one page scrolling project about different, effective methods of learning.
 
-## Функционал
- Вёрстка проекта производилась с использованием flexbox, имплементацией iframe и анимаций.
+## about
 
-## Планы
-Постараться уменьшить использование <div> если возможно и уместно. Переработать и объединить повторяющиеся стили.
+ The layout of the project was done using flexbox, iframe implementation and simple animations.
